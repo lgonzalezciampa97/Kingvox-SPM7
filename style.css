@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+.caja-principal{
+    background-color: #000222;
+    width: 340px;
+    height: 730px;
+    display: flex;
+    align-content: center;
+}
