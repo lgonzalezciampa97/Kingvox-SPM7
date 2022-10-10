@@ -1,11 +1,53 @@
 body{
-    background-color: black;
+    background-color: rgb(56, 3, 149);
+    font-family: sans-serif;
 }
 
 .caja-principal{
-    background-color: #000222;
-    width: 340px;
-    height: 730px;
+    background-color: #000000;
+    border: 3px solid grey;
+    border-radius: 40px;
+    width: 300px;
+    height: 480px;
     display: flex;
     align-content: center;
+    margin: 0px auto;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 24px 12px 24px rgb(23, 24, 47);
 }
+
+.titulo{
+    flex-direction: row;
+    font-size: 21px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+}
+
+.botones{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    border: 3px solid gray;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
