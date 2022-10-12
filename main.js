@@ -63,7 +63,7 @@ function apagarLuces() {
 }
 
 function usarBtn1() {
-    const sound = new Audio("car-alarm-1.mp3");
+    const sound = new Audio("sirena1.mp3");
     btn1.onmousedown = (() => {
         btn1.style.backgroundImage = "url('forma1-invert.png')";
         btn1.style.backgroundColor = "#0099ff";
@@ -79,7 +79,7 @@ function usarBtn1() {
 }
 
 function usarBtn2() {
-    const sound = new Audio("car-alarm-1.mp3");
+    const sound = new Audio("sirena2.mp3");
     btn2.onmousedown = (() => {
         btn2.style.backgroundImage = "url('forma2-invert.png')";
         btn2.style.backgroundColor = "#0099ff";
@@ -95,7 +95,7 @@ function usarBtn2() {
 }
 
 function usarBtn3() {
-    const sound = new Audio("car-alarm-1.mp3");
+    const sound = new Audio("sirena3.mp3");
     btn3.onmousedown = (() => {
         btn3.style.backgroundImage = "url('forma3-invert.png')";
         btn3.style.backgroundColor = "#0099ff";
@@ -111,7 +111,7 @@ function usarBtn3() {
 }
 
 function usarBtn4() {
-    const sound = new Audio("car-alarm-1.mp3");
+    const sound = new Audio("sirena4.mp3");
     btn4.onmousedown = (() => {
         btn4.style.backgroundImage = "url('forma4-invert.png')";
         btn4.style.backgroundColor = "#0099ff";
