@@ -80,13 +80,13 @@ function usarBtn1() {
 
 function usarBtn2() {
     const sound = new Audio("sirena2.mp3");
-    btn2.onmousedown = (() => {
+    btn2.ontouchstart = (() => {
         btn2.style.backgroundImage = "url('forma2-invert.png')";
         btn2.style.backgroundColor = "#0099ff";
         sound.play();
         encenderLuces();
     })
-    btn2.onmouseup = (() => {
+    btn2.ontouchend = (() => {
         btn2.style.backgroundImage = "url('forma2.png')";
         btn2.style.backgroundColor = "#ffffff";
         sound.pause();
@@ -96,13 +96,13 @@ function usarBtn2() {
 
 function usarBtn3() {
     const sound = new Audio("sirena3.mp3");
-    btn3.onmousedown = (() => {
+    btn3.ontouchstart = (() => {
         btn3.style.backgroundImage = "url('forma3-invert.png')";
         btn3.style.backgroundColor = "#0099ff";
         sound.play();
         encenderLuces();
     })
-    btn3.onmouseup = (() => {
+    btn3.ontouchend = (() => {
         btn3.style.backgroundImage = "url('forma3.png')";
         btn3.style.backgroundColor = "#ffffff";
         sound.pause();
@@ -112,13 +112,13 @@ function usarBtn3() {
 
 function usarBtn4() {
     const sound = new Audio("sirena4.mp3");
-    btn4.onmousedown = (() => {
+    btn4.ontouchstart = (() => {
         btn4.style.backgroundImage = "url('forma4-invert.png')";
         btn4.style.backgroundColor = "#0099ff";
         sound.play();
         encenderLuces();
     })
-    btn4.onmouseup = (() => {
+    btn4.ontouchend = (() => {
         btn4.style.backgroundImage = "url('forma4.png')";
         btn4.style.backgroundColor = "#ffffff";
         sound.pause();
