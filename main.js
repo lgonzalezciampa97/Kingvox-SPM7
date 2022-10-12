@@ -64,13 +64,13 @@ function apagarLuces() {
 
 function usarBtn1() {
     const sound = new Audio("sirena1.mp3");
-    btn1.onmousedown = (() => {
+    btn1.ontouchstart = (() => {
         btn1.style.backgroundImage = "url('forma1-invert.png')";
         btn1.style.backgroundColor = "#0099ff";
         sound.play();
         encenderLuces();
     })
-    btn1.onmouseup = (() => {
+    btn1.ontouchend = (() => {
         btn1.style.backgroundImage = "url('forma1.png')";
         btn1.style.backgroundColor = "#ffffff";
         sound.pause();
